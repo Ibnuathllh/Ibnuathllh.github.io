@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ibnu Athaillah - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <h1 class="fade-in">Ibnu Athaillah</h1>
+    <p class="fade-in delay1">Fresh Graduate | AI Enthusiast | Graphic Designer</p>
+  </header>
+
+  <section class="about fade-in">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah seorang fresh graduate jurusan IPS dengan minat tinggi dalam AI dan desain grafis. Saya siap berkontribusi secara kreatif dan adaptif di dunia kerja.</p>
+  </section>
+
+  <section class="skills fade-in">
+    <h2>Skill</h2>
+    <ul>
+      <li>Artificial Intelligence (AI) dalam pekerjaan</li>
+      <li>Desain Grafis</li>
+    </ul>
+  </section>
+
+  <section class="contact fade-in">
+    <h2>Kontak</h2>
+    <p>Whatsapp: <a href="https://wa.me/62895412889132" target="_blank">0895412889132</a></p>
+    <p>Instagram: <a href="https://instagram.com/ibnuuathllh" target="_blank">@ibnuuathllh</a></p>
+  </section>
+
+  <footer class="fade-in">
+    <p>&copy; 2025 Ibnu Athaillah</p>
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('.fade-in', {
+      distance: '50px',
+      duration: 1000,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      interval: 200
+    });
+  </script>
+</body>
+</html>
