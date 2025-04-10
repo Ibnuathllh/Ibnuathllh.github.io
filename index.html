@@ -1,35 +1,87 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ibnu Athaillah | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibnu Athaillah | Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Ibnu Athaillah</h1>
-    <p class="tagline">Fresh Graduate | AI & Desain Grafis</p>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#portfolio">Portofolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
 
-    <section class="about">
-      <h2>Tentang Saya</h2>
-      <p>Saya adalah fresh graduate SMA jurusan IPS yang memiliki minat dan keahlian dalam AI dan desain grafis. Saya siap belajar dan berkembang di dunia kerja.</p>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1>Halo, aku Ibnu!</h1>
+            <p>Bangun masa depanmu dari sekarang</p>
+            <a href="#about" class="btn">Lebih Lanjut</a>
+        </div>
     </section>
 
-    <section class="skills">
-      <h2>Skill</h2>
-      <ul>
-        <li>Desain Grafis (Photoshop, Canva)</li>
-        <li>AI untuk kerja produktif</li>
-        <li>Kreatif & Adaptif</li>
-      </ul>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Selamat datang di website resmi <strong>Ibnu Athaillah</strong>. Aku adalah seorang kreator muda yang sedang membangun perjalanan dalam dunia desain grafis, teknologi AI, dan pengembangan diri. Website ini dibuat sebagai tempat untuk menampilkan karya-karyaku, membagikan proses belajarku, serta menjadi wadah untuk terhubung dengan orang-orang yang memiliki visi yang sama...</p>
+        </div>
     </section>
 
-    <section class="contact">
-      <h2>Kontak</h2>
-      <p>WhatsApp: 0895412889132</p>
-      <p>Instagram: <a href="https://instagram.com/ibnuuathllh" target="_blank">@ibnuuathllh</a></p>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portofolio</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="image1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Deskripsi singkat tentang project ini.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Deskripsi singkat tentang project ini.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image3.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Deskripsi singkat tentang project ini.</p>
+                </div>
+            </div>
+        </div>
     </section>
-  </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Kontak Saya</h2>
+            <form action="#">
+                <label for="name">Nama</label>
+                <input type="text" id="name" placeholder="Nama lengkap">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email">
+
+                <label for="message">Pesan</label>
+                <textarea id="message" placeholder="Tulis pesan Anda..."></textarea>
+
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ibnu Athaillah | <a href="https://github.com/Ibnuathllh">GitHub</a> | <a href="https://instagram.com/Ibnuathllh">Instagram</a></p>
+        </div>
+    </footer>
 </body>
-</html>
+  </html>
